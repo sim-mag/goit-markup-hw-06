@@ -507,10 +507,12 @@ address li {
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.join-us {
+.join-us, .newsletter {
     padding-top: 12px;
+    /* padding-left: 78px; */
 }
-.join-us h3 {
+.join-us h3,
+.newsletter h3 {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.03em;
@@ -544,4 +546,48 @@ address li {
 }
 .underline {
     text-decoration: underline;
+}
+
+/* NEWSLETTER */
+
+.form {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: var(--background-grey);
+}
+
+input:hover,
+input:focus {
+    border-color: var(--blue);
+}
+
+::placeholder {
+    padding: 15px 0 15px 16px;
+}
+
+.button-newsletter {
+    width: 200px;
+    height: 50px;
+    background-color: var(--blue);
+    fill: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    /* padding: 10px 0px 10px 42px; */
+}
+
+.button-newsletter span {
+    color: white;
+    font-weight: 700;
+    line-height: 1.875;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
