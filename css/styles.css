@@ -35,7 +35,8 @@ svg {
     vertical-align: middle;
 }
 
-/* HEADER */
+
+/* ----- HEADER ----- */
 .header-wrapper {
     padding: 24px 0 25px 0;
 }
@@ -130,7 +131,8 @@ svg {
     display: block;
 }
 
-/* EFEKTYWNE ROZWIĄZANIA... */
+
+/* ----- EFEKTYWNE ROZWIĄZANIA... ----- */
 .solutions {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url(../images/bg.jpg);
@@ -199,7 +201,8 @@ svg {
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* OKNO MODALNE */
+
+/* ----- OKNO MODALNE ----- */
 .backdrop {
     position: fixed;
     left: 0;
@@ -244,7 +247,8 @@ svg {
     transition-timing-function: cubic-bezier(0.33, 0.47, 0.21, 0.67);
 }
 
-/* MODAL - FORMULARZ */
+
+/* ----- MODAL - FORMULARZ ----- */
 .client-form {
     display: flex;
     flex-direction: column;
@@ -376,7 +380,8 @@ svg {
     cursor: pointer;
 }
 
-/* SEKCJA TEKSTOWA LOREM */
+
+/* ----- SEKCJA TEKSTOWA LOREM ----- */
 .articles {
     color: var(--grey);
     font-size: 14px;
@@ -403,7 +408,8 @@ svg {
     gap: 30px;
 }
 
-/* CZYM SIĘ ZAJMUJEMY */
+
+/* ----- CZYM SIĘ ZAJMUJEMY ----- */
 .no-margin {
     margin-top: -94px;
 }
@@ -447,7 +453,8 @@ svg {
     text-transform: uppercase;
 }
 
-/* NASZ ZESPÓŁ */
+
+/* ----- NASZ ZESPÓŁ ----- */
 .our-team {
     background-color: #f5f4fa;
     padding-top: 94px;
@@ -496,7 +503,8 @@ svg {
     outline: none;
 }
 
-/* NASI KLIENCI */
+
+/* ----- NASI KLIENCI ----- */
 .flex-clients {
     display: flex;
     padding-top: 50px;
@@ -526,7 +534,8 @@ svg {
     outline: none;
 }
 
-/* MAIN STRONY PORTFOLIO */
+
+/* ----- MAIN STRONY PORTFOLIO ----- */
 .flex-portfolio {
     display: flex;
     padding-right: 15px;
@@ -600,7 +609,8 @@ figure:focus {
     outline: none;
 }
 
-/* STOPKA */
+
+/* ----- STOPKA ----- */
 .footer-wrapper {
     color: white;
     background-color: var(--background-grey);
@@ -679,7 +689,8 @@ address li {
     text-decoration: underline;
 }
 
-/* NEWSLETTER */
+
+/* ----- NEWSLETTER ----- */
 .newsletter h3 {
     padding-left: 20px;
 }
