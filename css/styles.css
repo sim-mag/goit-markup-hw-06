@@ -17,7 +17,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px dashed var(--blue); */
+    outline: 1px dashed var(--blue);
 }
 ul,
 p,
@@ -550,12 +550,15 @@ address li {
 
 /* NEWSLETTER */
 
-.form {
+.newsletter h3 {
+    padding-left: 20px;
+}
+.newsletter-form {
     display: flex;
     gap: 12px;
     margin-top: 20px;
+    margin-left: 20px;
 }
-
 input {
     width: 358px;
     height: 50px;
@@ -563,16 +566,14 @@ input {
     border-radius: 4px;
     background-color: var(--background-grey);
 }
-
 input:hover,
 input:focus {
     border-color: var(--blue);
+    outline: none;
 }
-
 ::placeholder {
     padding: 15px 0 15px 16px;
 }
-
 .button-newsletter {
     width: 200px;
     height: 50px;
@@ -583,11 +584,13 @@ input:focus {
     border-radius: 4px;
     /* padding: 10px 0px 10px 42px; */
 }
-
 .button-newsletter span {
     color: white;
     font-weight: 700;
     line-height: 1.875;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+}
+.button-newsletter:focus {
+    outline: none;
 }
